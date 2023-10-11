@@ -1,0 +1,28 @@
+INSERT INTO equipo(id, nombre) VALUES(1, 'Real Madrid');
+INSERT INTO equipo(id, nombre) VALUES(2, 'Liverpool');
+INSERT INTO equipo(id, nombre) VALUES(3, 'Nacional');
+INSERT INTO equipo(id, nombre) VALUES(4, 'Inter de Milan');
+INSERT INTO equipo(id, nombre) VALUES(5, 'PSG');
+INSERT INTO equipo(id, nombre) VALUES(6, 'Barcelona');
+INSERT INTO equipo(id, nombre) VALUES(7, 'Chelsea');
+INSERT INTO equipo(id, nombre) VALUES(8, 'Bayer Munich');
+INSERT INTO equipo(id, nombre) VALUES(9, 'Boca Juniors');
+INSERT INTO equipo(id, nombre) VALUES(10, 'Juventus');
+INSERT INTO equipo(id, nombre) VALUES(11, 'River Plate');
+
+INSERT INTO jugador(id, nombres, precio, id_equipo) VALUES(1, 'Cristiano Ronaldo', 80000000.0,1);
+INSERT INTO jugador(id, nombres, precio, id_equipo) VALUES(2, 'Luiz Diaz', 75000000.9, 2);
+INSERT INTO jugador(id, nombres, precio, id_equipo) VALUES(3, 'Kylian Mbappe', 18000000.0, 5);
+INSERT INTO jugador(id, nombres, precio, id_equipo) VALUES(4, 'Leonel Messi', 80000000.0, 6);
+INSERT INTO jugador(id, nombres, precio, id_equipo) VALUES(5, 'Ronaldiho', 9000000.0, 6);
+INSERT INTO jugador(id, nombres, precio, id_equipo) VALUES(6, 'Frank Fabra', 1000000.0, 9);
+INSERT INTO jugador(id, nombres, precio, id_equipo) VALUES(7, 'Juan Cuadrado', 5000000.0, 4);
+INSERT INTO jugador(id, nombres, precio, id_equipo) VALUES(8, 'James Rodriges', 60000000.0, 8);
+INSERT INTO jugador(id, nombres, precio, id_equipo) VALUES(9, 'Dorlan Pavon',500000.0 , 3);
+INSERT INTO jugador(id, nombres, precio, id_equipo) VALUES(10, 'Radamel Falcao', 59000000.0, 7);
+INSERT INTO jugador(id, nombres, precio, id_equipo) VALUES(11, 'Paul Pogba', 78900000, 10);
+INSERT INTO jugador(id, nombres, precio, id_equipo) VALUES(12, 'Migel Angel Borja', 800000.0, 11);
+INSERT INTO jugador(id, nombres, precio, id_equipo) VALUES(13, 'Juan Fernando Quintero', 1000000.0, 11);
+INSERT INTO jugador(id, nombres, precio, id_equipo) VALUES(14, 'Kevin Mier', 1000000.0, 3);
+INSERT INTO jugador(id, nombres, precio, id_equipo) VALUES(15, 'Juan Roman Riquelme', 10000000.0, 9);
+INSERT INTO jugador(id, nombres, precio, id_equipo) VALUES(16, 'Kaka', 40000000.0, 1);
